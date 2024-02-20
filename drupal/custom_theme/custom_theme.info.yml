@@ -1,0 +1,17 @@
+name: 'Custom Theme'
+type: theme
+core_version_requirement: ^8 || ^9 || ^10.2
+base theme: false
+description: 'Custom theme for Drupal'
+package: 'Custom'
+version: '1.0'
+libraries:
+  - custom_theme/global-styling
+  - custom_theme/page-styling
+  - custom_theme/page-scripts
+regions:
+  header: Header
+  menu: Main Menu
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

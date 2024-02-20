@@ -1,0 +1,14 @@
+global-styling:
+  version: 1.0
+  css:
+    theme:
+      css/style.css: {}
+
+page-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+page-scripts:
+  js:
+    js/page.js: {}
